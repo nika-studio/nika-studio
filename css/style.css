@@ -383,7 +383,10 @@ i.icon-location{
 .contacts-general .contacts{
  	flex-direction: row;
  	align-items: center;
- 	justify-content: space-between;
+ 	justify-content: flex-start;
+ }
+ .contacts-general .contact:last-child{
+ 	margin-left: 25px;
  }
  .contacts-general .contact{
  	margin: 0;
