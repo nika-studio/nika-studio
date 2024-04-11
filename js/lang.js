@@ -88,7 +88,7 @@ const langArr = {
       "ru":"<span>2.</span> Работаю на гипоаллергенной косметике европейских производителей<br>Все воски, сахарная паста и уходовая косметика имеют практически 100% натуральный состав. Работаю на известных проверенных марках. Все для Вашего комфорта, красоты и здоровья.",
     },
     "wax8":{
-      "deu":"<span>3.</span> Ich behandle alle Oberflächen vor und nach dem Kunden<br>Vor und nach jedem Kunden werden alle Oberflächen, mit denen der Kunde in Kontakt kam, mit speziellen antiseptischen Mitteln behandelt. Wahrscheinlichkeit der Ausbreitung von Infektionen – 0 %",      
+      "deu":"<span>3.</span> Ich behandle alle Oberflächen vor und nach dem Kunden<br>Vor und nach jedem Kunden werden alle Oberflächen, mit denen der Kunde in Kontakt kam, mit speziellen antiseptischen Mitteln behandelt. Wahrscheinlichkeit der Ausbreitung von Infektionen – 0%",      
       "ru":"<span>3.</span> Обрабатываю все поверхности до и после клиента<br>До и после каждого клиента все поверхности, с которыми соприкасался клиент обрабатываются специальными антисептическими средствами. Вероятность распространения инфекций - 0%",
     },
     "wax9":{
@@ -224,7 +224,7 @@ const langArr = {
       "ru":"Этот вид массажа подразумевает воздействие на стопы, голень, бедра, коленные и тазобедренные суставы, ягодицы. Только на стопах находится более 70 тысяч нервных окончаний и важных точек, через которые осуществляется связь со всеми органами.<br><br>Научно подтверждено, что поглаживания, разминания и растирания нижних nконечностей оказывают благоприятное влияние на мышцы, состояние кожи, костно-связочную систему.<br><br>Массирующие движения способны рефлекторно влиять на весь организм, улучшая его работу. Во время процедуры исчезает ощущение тревоги, беспокойства и нервозности, проходят головные боли и различные недомогания, появляются новые силы и заряд энергии. Параллельно улучшается работа сердечно-сосудистой и нервной системы, укрепляется иммунитет, стабилизируется гормональный фон.<br><br>Этот вид массажа позволяет добиться следующих положительных изменений:<br><br> • улучшение кровообращения<br>• снятие отеков<br>• тонизирование кожи и мышц<br>• устранение болевых и дискомфортных ощущений<br>• улучшение настроения и общего самочувствия<br>• профилактика стрессов<br>• укрепление иммунной системы, сердца и сосудов<br>• повышение работоспособности и выносливо",
     },
     "bl1":{
-      "deu":"Der Gesichts- und Dekolleté-Massagenkomplex besteht aus mehreren Heiltechniken:<br><br>• Lymphdrainage<br>• osteopathische Techniken<br>• Gesichtsmodellierung<br>• Gesichtsmodellierung<br>• Massage des bukkalen Teils durch den Mund) - eine Gesichtsmaske“",      
+      "deu":"Der Gesichts- und Dekolleté-Massagenkomplex besteht aus mehreren Heiltechniken:<br><br>• Lymphdrainage<br>• osteopathische Techniken<br>• Gesichtsmodellierung<br>• Gesichtsmodellierung<br>• Massage des bukkalen Teils durch den Mund) - eine Gesichtsmaske",      
       "ru":"Авторская методика массажа лица и зоны декольте, которая состоит из нескольких техник:<br><br>•   лимфодренаж<br>•   остеопатический приемы<br>•   скульптурирование лица<br>•   буккальная часть (массаж через ротовую полость)<br>•   маска для лица",
     },
     "bl2":{
