@@ -24,16 +24,16 @@ const langArr = {
       "ru":"Ежедневно с 9-00 до 20-00",
     },
     "gt1":{
-      "deu":"Lassen Sie sich von mir verwöhnen",      
-      "ru":"Позвольте Вас побаловать",
+      "deu":"Lassen Sie sich von uns verwöhnen",      
+      "ru":"«Давайте побалуем вас»",
     },
     "gt2":{
-      "deu":"Im Massage- und Sugaring-Studio können Sie nicht nur <br>Entspannen und Spaß haben, aber auch Ihre Haut für lange Zeit in Ordnung bringen.",      
-      "ru":"В студии массажа и шугаринга Вы можете не только <br>расслабиться и получить удовольствие, но и привести свою кожу в порядок на долгое время.",
+      "deu":"Willkommen im NikaStudio – ein Ort, an dem jeder Besuch zur Fürsorge für Körper und Seele wird. ",      
+      "ru":"Добро пожаловать в NikaStudio – место, где каждое посещение становится заботой о теле и душе.",
     },
     "gt3":{
-      "deu":"Sie befinden sich in den fürsorglichen Händen eines hochqualifizierten Spezialisten<br>Eine gemütliche und warme Atmosphäre erwartet Sie!",      
-      "ru":"Вы окажетесь в заботливых руках высококвалифицированного специалиста<br>Вас ожидает уютная и теплая атмосфера!",
+      "deu":"Wir bieten umfassende Pflege: von erholsamen Massagen bis hin zur professionellen Fusspflege und   Gesichtspflege sowie sanfter Depilation.",      
+      "ru":"Мы предлагаем комплексный уход: от расслабляющего массажа до профессионального ухода за ногами и лицом, а также нежной депиляции.",
     },
     "gt4":{
       "deu":"Anmeldung zum Eingriff",      
@@ -42,6 +42,14 @@ const langArr = {
     "gt5":{
       "deu":"Täglich von 9.00 bis 20.00 Uhr",      
       "ru":"Ежедневно с 9-00 до 20-00",
+    },
+    "gt6":{
+      "deu":"Unsere Spezialisten widmen jedem Kunden volle Aufmerksamkeit und schaffen eine Atmosphäre der Ruhe und des Wohlbefindens.",      
+      "ru":"Наши специалисты уделяют полное внимание каждому клиенту, создавая атмосферу покоя и благополучия.",
+    },
+    "gt7":{
+      "deu":"Im NikaStudio wird Ihre Pflege zu einem wahren Ritual der Schönheit und Entspannung. Vertrauen Sie sich uns an – und spüren Sie, wie Harmonie und Schönheit Teil Ihres Lebens werden.",      
+      "ru":"В NikaStudio ваш уход станет настоящим ритуалом красоты и релакса. Доверьтесь нам – и почувствуйте, как гармония и красота становятся частью вашей жизни.",
     },
     "au1":{
       "deu":"Warum sollten Sie sich für Nika Studio entscheiden?",      
@@ -291,6 +299,42 @@ const langArr = {
       "deu":"Zu den Hautpflegeverfahren gehören Verfahren zur Befeuchtung und Straffung. Wirkung, Hautaufhellung, Sauerstoffsättigung und andere. Zu den Expressdiensten zählen solche, die zeitlich begrenzt sind. Es kann zwischen 45 und 90 Minuten dauern. Alle Aufmerksamkeit wird auf ein bestimmtes Problem gerichtet sein. In jedem Fall wird individuell entschieden, welche Mängel beseitigt werden müssen. Eine der beliebtesten Dienstleistungen in der ästhetischen Kosmetik ist die Gesichtsmassage. Dadurch können erhebliche positive Veränderungen erreicht werden. Nach der Massage sieht die Haut gesünder und straffer aus.",      
       "ru":"Уходовые процедуры к ним относятся процедуры направленные на увлажнение, лифтинг. эффект, осветление кожи, насыщение кислородом и другие.  К экспресс услугам относятся те, которые имеют ограниченный лимит во времени. Она может занимать от 45 до 90 минут. Все внимание будет фокусироваться на конкретной проблеме. Во всех случаях индивидуально принимается решение, какие недостатки необходимо устранять. Одной из наиболее популярных в эстетической косметологии является услуга массажа лица. Благодаря ей можно достичь значительных положительных изменений. После массажа кожа будет выглядеть более здоровой, тонизированной.",
     },
+    "ped1":{
+      "deu":"Fußpflege und Pediküre",      
+      "ru":"Уход за ногами и педикюр",
+    },
+    "ped2":{
+      "deu":"Im NikaStudio bieten wir umfassende Fußpflege und Pediküre an, damit Ihre Füße stets perfekt aussehen und sich wohlfühlen. Unsere Spezialisten sorgen nicht nur für ein ästhetisches und gepflegtes Aussehen, sondern auch für die Gesundheit von Haut und Nägeln, wobei die individuellen Bedürfnisse jedes Kunden berücksichtigt werden.",      
+      "ru":"В NikaStudio мы предлагаем комплексный уход за ногами и педикюр, чтобы ваши ноги всегда выглядели и чувствовали себя идеально. Наши специалисты обеспечивают не только эстетичный и ухоженный внешний вид, но и здоровье кожи и ногтей, учитывая индивидуальные потребности каждого клиента.",
+    },
+    "ped3":{
+      "deu":"Im NikaStudio wissen wir, wie wichtig es ist, sich sicher und wohl zu fühlen. Daher legen wir besonderen Wert auf Hygiene, hohe Qualität unserer Dienstleistungen und eine individuelle Betreuung unserer Gäste. Gönnen Sie Ihren Füßen die Pflege, die sie verdienen – vereinbaren Sie noch heute einen Termin für Fußpflege und Pediküre und erleben Sie den Unterschied mit NikaStudio!",      
+      "ru":"В NikaStudio мы знаем, насколько важно чувствовать себя безопасно и комфортно. Поэтому мы придаем особое значение гигиене, высокому качеству наших услуг и индивидуальному уходу за нашими гостями. Подарите своим ногам тот уход, которого они заслуживают – запишитесь на уход за ногами и педикюр уже сегодня и почувствуйте разницу с NikaStudio!",
+    },
+    "ped4":{
+      "deu":"Mehr Details",      
+      "ru":"Подробнее",
+    },
+    "ped5":{
+      "deu":"Was unsere Fußpflege- und Pediküre-Dienstleistungen beinhalten:",      
+      "ru":"Что включают в себя услуги по уходу за ногами и педикюру:",
+    },
+    "ped6":{
+      "deu":"• Umfassende Fußpflege: <span>Feuchtigkeitspflege, Massage, Entfernung von Hornhaut und Schwielen</span>;",      
+      "ru":"• Комплексный уход за ногами: <span>увлажнение, массаж, удаление мозолей и мозолей</span>;",
+    },
+    "ped7":{
+      "deu":"• Qualitative Pediküre: <span>Formgebung der Nägel, Pflege der Nagelhaut und Auftrag eines Lacks (ohne UV Gel-Lack)</span>;",      
+      "ru":"• Качественный педикюр: <span>придание формы ногтям, уход за кутикулой и нанесение лака (без УФ-гель-лака)</span>;",
+    },
+    "ped8":{
+      "deu":"• Entspannende Fußmassage: <span>zur Verbesserung der Durchblutung und Linderung von Müdigkeit</span>;",      
+      "ru":"• Расслабляющий массаж стоп: <span>для улучшения кровообращения и снятия усталости</span>;",
+    },
+    "ped9":{
+      "deu":"• Verwendung moderner Methoden und zertifizierter Produkte <span>für Sicherheit und Komfort während der Behandlung</span>.",      
+      "ru":"• Использование современных методов и сертифицированной продукции <span>для безопасности и комфорта во время лечения</span>.",
+    },
     "pr1":{
       "deu":"Enthaarung",      
       "ru":"Депиляция",
@@ -300,8 +344,12 @@ const langArr = {
       "ru":"Массаж",
     },
     "pr3":{
-      "deu":"Kosmetologie",      
-      "ru":"Косметология",
+      "deu":"Gesichtsbehandlung",      
+      "ru":"Уход за лицом",
+    },  
+    "pr4":{
+      "deu":"Fußpflege",      
+      "ru":"Уход за ногами",
     },    
     "pr5":{
       "deu":"Enthaarungsdienste",      
@@ -352,64 +400,108 @@ const langArr = {
       "ru":"Услуги массажа",
     },
     "pr17":{
-      "deu":"Antwort",      
+      "deu":"Rückenmassage",      
       "ru":"Массаж спины",
     },
     "pr18":{
-      "deu":"30 Minuten",      
-      "ru":"30 мин",
+      "deu":"35 Minuten",      
+      "ru":"35 мин",
     },
     "pr19":{
       "deu":"Ganzkörpermassage",      
       "ru":"Массаж всего тела",
     },
     "pr20":{
-      "deu":"70 Minuten",      
-      "ru":"70 мин",
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
     },
     "pr21":{
-      "deu":"Honigmassage",      
-      "ru":"Медовый массаж",
+      "deu":"Hot Stones Massage",      
+      "ru":"Массаж горячими камнями",
     },
     "pr22":{
-      "deu":"30 Minuten",      
-      "ru":"30 мин",
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
     },
     "pr23":{
       "deu":"Sportmassage",      
       "ru":"Спортивный массаж",
     },
     "pr24":{
-      "deu":"50 Minuten",      
-      "ru":"50 мин",
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
+    },
+    "pr25":{
+      "deu":"Schröpfkopfmassage",      
+      "ru":"Баночный массаж головы",
     },    
     "pr26":{
       "deu":"30 Minuten",      
       "ru":"30 мин",
     },
     "pr27":{
-      "deu":"Ohrkerzenbehandlung",      
-      "ru":"Массаж головы + фитосвечи для ушей",
+      "deu":"Schröpfkopfmassage",      
+      "ru":"Баночный массаж головы",
     },
     "pr28":{
-      "deu":"30 Minuten",      
-      "ru":"30 мин",
-    },
-    "pr29":{
-      "deu":"Korrigierende Massage",      
-      "ru":"Корректирующий массаж",
-    },
-    "pr30":{
       "deu":"60 Minuten",      
       "ru":"60 мин",
     },
+    "pr29":{
+      "deu":"Fußzonenmassage",      
+      "ru":"Массаж зоны стоп",
+    },
+    "pr30":{
+      "deu":"30 Minuten",      
+      "ru":"30 мин",
+    },
     "pr31":{
-      "deu":"Entspannungsmassage",      
-      "ru":"Relaxe массаж",
+      "deu":"Kräuterstempel Massage",      
+      "ru":"Массаж травяными штампами",
     },
     "pr32":{
-      "deu":"50 Minuten",      
-      "ru":"50 мин",
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
+    },
+    "pr54":{
+      "deu":"Breuss Massage",      
+      "ru":"Бреусс-массаж",
+    },
+    "pr55":{
+      "deu":"45 Minuten",      
+      "ru":"45 мин",
+    },
+    "pr56":{
+      "deu":"Kopf Massage + Ohrkerzenbehandlung",      
+      "ru":"Массаж головы + лечение ушными свечами",
+    },
+    "pr57":{
+      "deu":"35 Minuten",      
+      "ru":"35 мин",
+    },
+    "pr58":{
+      "deu":"Schwedische Massage",      
+      "ru":"Шведский массаж",
+    },
+    "pr59":{
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
+    },
+    "pr60":{
+      "deu":"Relax Massage (Die Aroma-Touch Massage-Mischung)",      
+      "ru":"Расслабляющий массаж (массажная смесь Aroma-Touch)",
+    },
+    "pr61":{
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
+    },
+    "pr62":{
+      "deu":"Lymphdrainage-Massage",      
+      "ru":"Лимфодренажный массаж",
+    },
+    "pr63":{
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
     },
     "pr33":{
       "deu":"Ästhetische Kosmetikdienstleistungen",      
@@ -451,6 +543,50 @@ const langArr = {
       "deu":"Anmeldung zum Eingriff",      
       "ru":"Запись на процедуру",
     },
+    "pr43":{
+      "deu":"Fußpflege und Pediküre",      
+      "ru":"Уход за ногами и педикюр",
+    },
+    "pr44":{
+      "deu":"Klassische Fußpflege",      
+      "ru":"Классический уход за ногами",
+    },
+    "pr45":{
+      "deu":"Wellness-Pediküre",      
+      "ru":"Оздоровительный педикюр",
+    },
+    "pr46":{
+      "deu":"Pediküre mit Lack",      
+      "ru":"Педикюр с лаком",
+    },
+    "pr47":{
+      "deu":"Fußmassage (als Zusatzbehandlung)",      
+      "ru":"Массаж ног (как дополнительная процедура)",
+    },
+    "pr48":{
+      "deu":"Peeling und Fußmaske",      
+      "ru":"Пилинг и маска для ног",
+    },
+    "pr49":{
+      "deu":"45 Minuten",      
+      "ru":"45 мин",
+    },
+    "pr50":{
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
+    },
+    "pr51":{
+      "deu":"60 Minuten",      
+      "ru":"60 мин",
+    },
+    "pr52":{
+      "deu":"15 Minuten",      
+      "ru":"15 мин",
+    },
+    "pr53":{
+      "deu":"20 Minuten",      
+      "ru":"20 мин",
+    },
     "mat1":{
       "deu":"Das Studio verwendet ausschließlich zertifizierte Kosmetik von vertrauenswürdigen Marken.",      
       "ru":"В студии используется только сертифицорованная косметика проверенных брендов.",
@@ -464,7 +600,7 @@ const langArr = {
       "ru":"Давайте знакомиться!",
     },
     "mast2":{
-      "deu":"Mein Name ist Veronica.",      
+      "deu":"Mein Name ist Veronika.",      
       "ru":"Меня зовут Вероника.",
     },
     "mast3":{
