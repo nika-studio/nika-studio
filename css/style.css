@@ -416,11 +416,18 @@ i.icon-location{
 @media (max-width: 470px){
 	.general-wrapper{
 		height: 100vh;
+		margin-top: 67px;
+		h2{
+			font-size: 16px;
+		}
+		p{
+			font-size: .7em;
+		}
 	}
 	.text-general{	
 	grid-column-start: 1;
   grid-column-end: 6;
-  grid-row-start: 2;
+  grid-row-start: 1;
   grid-row-end: 3;
   align-items: center;
 	}
@@ -495,6 +502,19 @@ i.icon-location{
 	.card{
 		width: 80%;
 	}
+	.accordeon{		
+		h3{
+			font-size: 16px;
+			padding: 8px 0;
+		}
+		p{
+			font-size: .8em;
+		}
+		
+		
+	} 
+
+
 }
 
 
@@ -515,10 +535,10 @@ i.icon-location{
 	align-items: center;	
 	transition: all 0.3s ease;	
 }
-.massage{
+.massage,.biolift{
 	background-color:#FCDAC4;
 }
-.cosmetolog{
+.waxing,.waxing-content{
 	background-color: #E5E2AE;
 }
 .accordeon-content{
@@ -535,32 +555,30 @@ i.icon-location{
 .accordeon-text{
 	padding:10px 25px 10px 15px;
 }
-.kosmetolog-content{
-	background-color: #E5E2AE;
-}
-.massage-content{
+
+.massage-content,.biolift-content{
 	background-color: #FCDAC4;
 }
-.waxing-wrapper,.massage-wrapper,.biolift-wrapper,.kosmetolog-wrapper{		
+.waxing-wrapper,.massage-wrapper,.biolift-wrapper,.kosmetolog-wrapper,.pedikure-wrapper{		
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 100px 0;
 }
-.waxing-container,.massage-container,.biolift-container,.kosmetolog-container{	
+.waxing-container,.massage-container,.biolift-container,.kosmetolog-container,.pedikure-container{	
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows:repeat(5, 13vh	);
 }
-.waxing-container,.biolift-container{
+.kosmetolog-container,.biolift-container,.pedikure-container{
 	padding-left: calc((100% - 1200px)/2);
 }
-.massage-container,.kosmetolog-container{
+.massage-container,.waxing-container{
 	padding-right: calc((100% - 1200px)/2);
 }
-@media (max-width: 1200px){
-	.waxing-container,.biolift-container{
+/*@media (max-width: 1200px){
+	.waxing-container,.biolift-container,.pedikure-container{
 	padding-left: 2.5vw;
 	}
 	.massage-container,.kosmetolog-container{
@@ -568,14 +586,14 @@ i.icon-location{
 	}
 }
 @media (max-width: 800px){
-	.waxing-container,.biolift-container{
+	.waxing-container,.biolift-container,.pedikure-container{
 	padding-left: 0;
 	}
 	.massage-container,.kosmetolog-container{
 		padding-right:  0;
 	}
-}
-.waxing-img-wrapper,.biolift-img-wrapper{
+}*/
+.kosmetolog-img-wrapper,.biolift-img-wrapper,.pedikure-img-wrapper{
 	display: flex;
 	grid-column-start: 4;
   grid-column-end: 6;
@@ -583,7 +601,7 @@ i.icon-location{
   grid-row-end: 6; 
   position: relative;
 }
-.massage-img-wrapper,.kosmetolog-img-wrapper{
+.massage-img-wrapper,.waxing-img-wrapper{
 	display: flex;
 	grid-column-start: 1;
   grid-column-end: 3;
@@ -591,13 +609,13 @@ i.icon-location{
   grid-row-end: 6; 
   position: relative;
 }
-.waxing-img,.massage-img,.biolift-img,.kosmetolog-img{
+.waxing-img,.massage-img,.biolift-img,.kosmetolog-img,.pedikure-img{
   width:100%;
   height: 100%;
   object-fit: cover;
   display: block; 
 } 
-.waxing-text,.biolift-text{
+.kosmetolog-text,.biolift-text,.pedikure-text{
 	grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -608,7 +626,7 @@ i.icon-location{
 	justify-content: center;
 	padding: 32px 24px 32px 0;
 }
-.massage-text,.kosmetolog-text{
+.massage-text,.waxing-text{
 	grid-column-start: 3;
   grid-column-end: 6;
   grid-row-start: 2;
@@ -619,43 +637,44 @@ i.icon-location{
 	justify-content: center;
 	padding: 32px 24px 32px 10vw;
 }
+
 @media (max-width: 1000px){
-	.waxing-text,.massage-text,.biolift-text, .kosmetolog-text{	
+	.waxing-text,.massage-text,.biolift-text,.kosmetolog-text,.pedikure-text{	
 	padding-left: 5vw;
 	}
 }
-.waxing-text-p,.massage-text-p,.biolift-text-p,.kosmetolog-text-p{
+.waxing-text-p,.massage-text-p,.biolift-text-p,.kosmetolog-text-p,.pedikure-text-p{
 	transform: translate(0px,40%);
 	opacity: 0;
 	transition: all 0.8s ease ;	
 }
-.waxing-text-p._active,.massage-text-p._active,.biolift-text-p._active,.kosmetolog-text-p._active{
+.waxing-text-p._active,.massage-text-p._active,.biolift-text-p._active,.kosmetolog-text-p._active,.pedikure-text-p._active{
 	transform: translate(0px,0px);
 	opacity: 1;
 }
 @media (max-width: 800px){
-		.waxing-container,.massage-container,.biolift-container,.kosmetolog-container{			
+		.waxing-container,.massage-container,.biolift-container,.kosmetolog-container,.pedikure-container{			
 		grid-template-rows:repeat(4, 20vh	);
 	}
-		.waxing,.massage,.biolift,.kosmetolog{	
+		.waxing,.massage,.biolift,.kosmetolog,.pedikure{	
 		min-height: 75vh;	
 	}
-	.waxing-wrapper,.massage-wrapper,.biolift-wrapper,.kosmetolog-wrapper{		
+	.waxing-wrapper,.massage-wrapper,.biolift-wrapper,.kosmetolog-wrapper,.pedikure-wrapper{		
 		padding: 50px 0;
 	}
-	.waxing-img-wrapper,.massage-img-wrapper,.biolift-img-wrapper,.kosmetolog-img-wrapper{	
+	.waxing-img-wrapper,.massage-img-wrapper,.biolift-img-wrapper,.kosmetolog-img-wrapper,.pedikure-img-wrapper{	
 		grid-column-start: 1;
 	  grid-column-end: 6;
 	  grid-row-start: 1;
 	  grid-row-end: 2; 	  
 	}
-	.waxing-text,.massage-text,.biolift-text,.kosmetolog-text{
+	.waxing-text,.massage-text,.biolift-text,.kosmetolog-text,.pedikure-text{
 		grid-column-start: 1;
 	  grid-column-end: 6;
 	  grid-row-start: 2;
 	  grid-row-end: 5; 
 	}
-	.waxing-text,.massage-text,.biolift-text,.kosmetolog-text{	
+	.waxing-text,.massage-text,.biolift-text,.kosmetolog-text,.pedikure-text{	
 		padding: 32px 2.5vw;
 	}
 }
@@ -703,6 +722,9 @@ i.icon-location{
 .accordeon-text span{
 	font-weight: 700;
 	font-size: 20px;
+}
+.pedikure-content span{
+	font-size: 100% !important;
 }
 @media (max-width: 800px){
 	.accordeon-text span{	
@@ -889,14 +911,18 @@ i.icon-location{
 .slider_disable-transition{
 	transition:none;
 }
-.tab__item {
+.tab__item{
     display: flex;  
     border: 1px solid rgba(229, 226, 174, 0.5);
     width: 100%;
     align-items: center;
     justify-content: center;
     background-color: rgba(229, 226, 174, 0.5);
-    padding: 12px 0;  
+    padding: 12px 0;     
+}
+.lng-pr4{
+	text-align: center;
+
 }
 .tab__item:first-child{
 	margin-right: 1px;	
@@ -950,6 +976,9 @@ tr{
 	height: 36px;
 	vertical-align: middle;;
 }
+#tab-2 tr{
+	height: 30px;
+}
 tr:nth-child(even) {
     background-color: rgba(229, 226, 174, 0.2);
 }
@@ -961,6 +990,9 @@ tr:nth-child(even) {
 .detal._active{
 	transform: translate(0px,0px);
 	opacity: 1;	
+}
+.big-table{
+	font-size: 12px;
 }
 @media (max-width:1200px){	
 	.tabs-items{	
@@ -1018,11 +1050,18 @@ tr:nth-child(even) {
  .th{
  	font-size: 12px;
  }
+ .prices-container{
+ 	height: 110vh;
+ }
+ .tabs-items{
+ 	max-height: 100vh;
+ }
+
 }
 @media (max-height:800px){	
 	tr{	
 	height: 28px;	
-	}
+	}	
 }
 
 
