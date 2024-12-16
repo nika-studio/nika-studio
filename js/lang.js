@@ -55,6 +55,10 @@ const langArr = {
       "deu":"Warum sollten Sie sich für Nika Studio entscheiden?",      
       "ru":"Почему Вам стоит выбрать Nika Studio?",
     },
+    "gt8":{
+      "deu":"Anmeldung zum Eingriff",      
+      "ru":"Запись на процедуру",
+    },
     "au2":{
       "deu":"Individuelle Herangehensweise an jeden Kunden! Sie werden sich auf unser nächstes Treffen freuen!!!",      
       "ru":"Индивидуальный подход к каждому клиенту! Вы с нетерпением будете ждать следующей нашей встречи!!!",
@@ -586,6 +590,10 @@ const langArr = {
     "pr53":{
       "deu":"20 Minuten",      
       "ru":"20 мин",
+    },
+    "pr65":{
+      "deu":"Anmeldung zum Eingriff",      
+      "ru":"Запись на процедуру",
     },
     "mat1":{
       "deu":"Das Studio verwendet ausschließlich zertifizierte Kosmetik von vertrauenswürdigen Marken.",      
